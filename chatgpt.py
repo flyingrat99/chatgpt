@@ -9,7 +9,7 @@ from langchain.chat_models import ChatOpenAI
 from gpt_index import SimpleDirectoryReader, GPTListIndex, GPTSimpleVectorIndex, LLMPredictor, PromptHelper
 print("hello world")
 
-os.environ["OPENAI_API_KEY"] = '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'
+os.environ["OPENAI_API_KEY"] = 'enter here'
 
 
 def construct_index(directory_path):
